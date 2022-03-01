@@ -8,7 +8,7 @@ const getRandom = () => Math.floor(Math.random()* quotes.length);
 
 
 
-const BtnChance = () => {
+const BtnChange = () => {
 
     const colors=["#35670F", "#6E3C0E", "#670F1A"," #008884", "#DD0D0D", "#DD7E0D"];
     // const [color, SetColor]= useState(Math.floor(Math.random()*colors.length));
@@ -38,4 +38,4 @@ const BtnChance = () => {
     );
 };
 
-export default BtnChance;
+export default BtnChange;

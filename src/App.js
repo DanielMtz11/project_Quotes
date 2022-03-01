@@ -1,11 +1,11 @@
 import './App.css';
-import BtnChance from './Components/BtnChance';
+import BtnChange from './Components/BtnChange';
 
 // const [quote setQuote]= useState()
 function App() {
   return (
     <div className="App">
-      <BtnChance/>
+      <BtnChange/>
     </div>
   );
 }
